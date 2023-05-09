@@ -722,8 +722,8 @@ blockquote {
 
 .aria_change{
   color: black;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 900;
   line-height: 3;
   margin-bottom: 1.875rem;
   padding: .5rem;
@@ -732,6 +732,12 @@ blockquote {
   /* border 2px thick */
   border: 2px solid black;
   border-radius: 0.5rem !important;
+}
+
+.aria_change:hover{
+  color: #00c0c0;
+  background-color: black;
+  transition: 0.5s;
 }
 
 @media (max-width: 992px) {
